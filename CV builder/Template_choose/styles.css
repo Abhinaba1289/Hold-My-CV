@@ -1,0 +1,193 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-image: url();
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    /* background-color: #333; */
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+.navbar.sticky {
+    padding: 15px 0;
+    background-color: #000000;
+}
+
+.navbar .max-width {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.navbar .logo1 {
+    /* margin-left: 100px; */
+    position: relative;
+    left: 50px;
+}
+
+.navbar .logo a {
+    /* left: 20px; */
+    color: #949494;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 520px;
+    /* left: 20%; */
+}
+
+.navbar .logo a span {
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo a span {
+    color: #fff;
+}
+
+.navbar .menu {
+
+    margin-left: 300px;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: #797979;
+}
+
+.navbar.sticky .menu li a:hover {
+    color: #fff;
+}
+
+.hero {
+    /* top: 10; */
+    background-image: url(../images/pexels-kubiceknov-924824.jpg);
+    background-size: cover;
+    background-position: 0% 100%;
+    height: 450px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.hero-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.templates {
+    /* align-items: center; */
+    padding: 20px;
+    background-color: #a2a2a2;
+}
+
+.template {
+    transition: all 0.3s ease;
+    /* align-items: center; */
+}
+
+.template:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0);
+    background: #afafaf;
+    transform: scale(1.05);
+
+}
+
+.section-title {
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.template-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    /* align-items: center; */
+}
+
+.template {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* align-items: center; */
+}
+
+.template img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.template h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    /* align-items: center; */
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    /* align-items: center; */
+}
+
+.btn:hover {
+    background-color: #555;
+}
