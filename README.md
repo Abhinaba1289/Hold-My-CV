@@ -2,6 +2,13 @@
 
 **Hold-My-CV** is a web-based application designed to help users create and manage their CVs online. This project demonstrates the integration of HTML, CSS, JavaScript, PHP, and MySQL with XAMPP in a group setting.
 
+## Found Project Video Here ⬇️:
+
+
+
+
+
+
 ## 💻 Tech Stack
 
 - **HTML**: Structure and content of the web pages.
