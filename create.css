@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+:root{
+    --back-color : white;
+    --shadow-color : lightgray;
+}
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(239, 239, 239);
+}
+.content{
+    display : flex; 
+    justify-content:center;
+    gap:30px;
+    flex-wrap: wrap-reverse;
+    align-items: baseline;
+    margin: auto;
+}
+/* .first{
+    max-width: 450px;
+    padding: 15px;
+    height: 100vh;
+    overflow: scroll;
+} */
+.second{
+    padding: 15px;
+    /* height: 100vh; */
+    /* overflow: scroll; */
+}
+/* .full-form{
+    width: 100%;
+    min-width: 400px;
+    padding: 20px;
+} */
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color:  var(--back-color);
+    margin-bottom: 3%;
+    box-shadow: 0 0 15px var(--shadow-color);
+    border-radius: 20px;
+}
+.header {
+   font-size: 20px;
+   font-weight: 500px;
+}
+
+form .inputs-dg{
+    background-color: var(--back-color);
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 15px;
+    border-radius: 15px;
+    padding-bottom: 25px;
+    box-shadow: 0 0 10px var(--shadow-color);
+}
+form .second2{
+    background-color: var(--back-color);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 15px;
+    border-radius: 15px;
+    padding-bottom: 25px;
+    box-shadow: 0 0 10px var(--shadow-color);
+}
+label{
+    padding: 10px;
+}
+input,textarea{
+    width: 100%;
+    border: none;
+    background-color: rgba(225, 225, 225, 0.732);
+    padding: 9px;
+    font-size: 16px;
+    border-radius: 10px ;
+    padding-left: 20px;
+   
+}
+
+form h2{
+    text-align: center;
+    display: none;
+}
+.add-btn{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: 500ms all ease;
+}
+.add-btn:hover{
+    transform: scale(1.05);
+    color: rgb(255, 255, 255);
+    background-color:rgb(98, 43, 226);
+    border-color:rgb(31, 14, 72);;
+
+}
+.remove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: end;
+    align-self: end;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: small;
+    margin-top:  20px;
+    border-color: red;
+    color: red;
+    background-color: rgb(255, 255, 255);
+    gap: 5px;
+    cursor: pointer;
+    transition: 500ms all ease;
+}
+.remove:hover{
+    transform: scale(1.05);
+    color: rgb(255, 255, 255);
+    background-color:red;
+    border-color:rgb(69, 0, 0);
+
+}
+
+#submit-btn{
+    background-color: rgb(98, 43, 226);
+    padding: 9px;
+    border-radius: 20px;
+    border: 2px solid rgb(98, 43, 226);
+    font-size: large;
+    margin: 10px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 500ms all ease;
+}
+.download-btn{
+   
+    background-color: rgb(98, 43, 226);
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(98, 43, 226);
+    font-size: large;
+    margin: 10px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer; 
+    margin-top: 20px;
+    transition: 500ms all ease;
+}
+
+
+#submit-btn:hover{
+   transform: scale(1.03);
+   color: rgb(62, 28, 142);
+   background-color:rgb(255, 255, 255);
+   border-color:rgb(62, 28, 142);
+}
+.download-btn:hover{
+   transform: scale(1.03);
+   color: rgb(62, 28, 142);
+   background-color:rgb(255, 255, 255);
+   border-color:rgb(62, 28, 142);
+}
+
+form label{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 7px 15px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms all ease;
+}
+.dash:hover{
+    transform: scale(1.05);
+    color: rgb(255, 255, 255);
+    background-color:rgb(98, 43, 226);
+    border-color:rgb(62, 28, 142);;
+}
+
+
