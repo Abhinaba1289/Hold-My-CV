@@ -1,0 +1,18 @@
+Form accessed at: 2025-07-31 16:16:43
+POST data: Array
+(
+    [name] => Abhinaba Mukherjee
+    [email] => abhinaba2048@gmail.com
+    [message] => 1234
+)
+
+Validation errors: Message must be at least 10 characters
+Form accessed at: 2025-07-31 16:17:24
+POST data: Array
+(
+    [name] => Abhinaba Mukherjee
+    [email] => abhinaba2048@gmail.com
+    [message] => Here is your first message from Hold My CV customer
+)
+
+Email failed to send
